@@ -530,35 +530,55 @@
   border-radius: 8px;
 }
 .modal__input input::-webkit-input-placeholder {
+  position: absolute;
+  top: 12px;
   color: #B5B6BC;
 }
 .modal__input input::-moz-placeholder {
+  position: absolute;
+  top: 12px;
   color: #B5B6BC;
 }
 .modal__input input:-ms-input-placeholder {
+  position: absolute;
+  top: 12px;
   color: #B5B6BC;
 }
 .modal__input input::placeholder {
+  position: absolute;
+  top: 12px;
   color: #B5B6BC;
 }
-.modal__input-text input {
+.modal__input textarea {
+  box-sizing: border-box;
+  font-family: "TT Lakes Medium";
+  width: 100%;
   height: 118px;
+  padding: 12px 16px;
+  font-size: 16px;
+  border: 1px solid #EAEAEA;
+  border-radius: 8px;
+  resize: none;
 }
-.modal__input-text input::-webkit-input-placeholder {
+.modal__input textarea::-webkit-input-placeholder {
   position: absolute;
   top: 12px;
+  color: #B5B6BC;
 }
-.modal__input-text input::-moz-placeholder {
+.modal__input textarea::-moz-placeholder {
   position: absolute;
   top: 12px;
+  color: #B5B6BC;
 }
-.modal__input-text input:-ms-input-placeholder {
+.modal__input textarea:-ms-input-placeholder {
   position: absolute;
   top: 12px;
+  color: #B5B6BC;
 }
-.modal__input-text input::placeholder {
+.modal__input textarea::placeholder {
   position: absolute;
   top: 12px;
+  color: #B5B6BC;
 }
 .modal__descr {
   margin-bottom: 27px;
