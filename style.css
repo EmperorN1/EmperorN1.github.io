@@ -67,14 +67,17 @@
   background-color: #FF3E79;
 }
 .button__read-more {
-  justify-content: space-between;
-  width: 132px;
+  justify-content: start;
+  width: auto;
   height: 24px;
   border: none;
   border-radius: 0;
   background: none;
   font-weight: bold;
   font-size: 16px;
+}
+.button__read-more img {
+  margin-right: 16px;
 }
 .button__read-more_commercial {
   width: auto;
@@ -937,7 +940,7 @@ body:hover {
   }
 }
 .expansion {
-  max-height: 1000%;
+  max-height: 100%;
 }
 
 /*# sourceMappingURL=style.css.map*/
